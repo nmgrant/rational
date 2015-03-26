@@ -38,7 +38,7 @@ public:
 	friend Rational operator-(const Rational &rational);
 	friend Rational operator-(const Rational &lhs, const Rational &rhs);
 	friend Rational operator*(const Rational &lhs, const Rational &rhs);
-   friend Rational operator/(const Rational &lhs, const Rational &rhs);
+   	friend Rational operator/(const Rational &lhs, const Rational &rhs);
 	friend bool operator==(const Rational &lhs, const Rational &rhs);
 	friend bool operator!=(const Rational &lhs, const Rational &rhs);
 	friend bool operator<(const Rational &lhs, const Rational &rhs);
